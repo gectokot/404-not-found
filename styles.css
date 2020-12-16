@@ -2,34 +2,89 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  
 }
 
 body {
   font-family: "Space Mono";
-  height: 100vh;
-  width: 100vw;
 }
 
 img {
-  width: 800px;
+  width: 80%;
 }
 
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 18px;
+}
+
+header{
+  margin-right: auto;
+
+}
 footer {
-  display: flex;
-  justify-content: center;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+button {
+  background-color: #333333;
+  color: white;
+  width: 216px;
+  height: 68px;
+  margin-top: 5%;
 }
 
 .container {
   display: flex;
   height: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;  
+}
+
+.wrapper {
+  padding: 30px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
+.message {
+  font-family: Inconsolata;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .wrapper {
+    align-items: baseline;
+    height: 100%;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  img {
+    width: 40%;
+  }
+
+  footer {
+    align-self: center;
+  }
 }
