@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">404-not-found</h1>
 
 <div align="center">
@@ -8,7 +6,6 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
     <a href="https://gectokots404.netlify.app/">
       Solution
     </a>
@@ -19,22 +16,16 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
 
 ## Overview
 
-![Alt text](/screenshot-large.png?raw=true 'Screenshot')
-![Alt text](/screenshot-mobile.png?raw=true 'Screenshot')
+![alt text](screenshots/screen-large.png?raw=true 'Screenshot')
+![alt text](/screenshots/screen-mobile.png?raw=true 'Screenshot')
 
 Well duh.
 
