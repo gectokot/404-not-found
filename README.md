@@ -33,7 +33,8 @@ It should loook good on every screen. Also it fills exactly whole screen (thanks
 
 ### Built With
 
-Just flexbox.
+* HTML5
+* CSS3
 
 ## Features
 
